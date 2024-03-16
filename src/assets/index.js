@@ -59,6 +59,5 @@ export {
   whitehatjr,
   everbright_sighten,
   food_court,
-  tripguide,
   proctor_clone
 };

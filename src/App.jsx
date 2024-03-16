@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Feedbacks} from './components';
 
 const App = () => {
+  const basename = '/my_portfolio/'
   return (
 
     <BrowserRouter>

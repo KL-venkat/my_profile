@@ -23,9 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import everbright_sighten from "./everbright_sighten.png";
 import proctor_clone from "./proctor_clone.png";
-import jobit from "./jobit.png";
 import food_court from "./food_court.png";
-import tripguide from "./tripguide.png";
 import bebo_technologies from "./company/bebo_technologies.png";
 import qasource from "./company/qasource.png";
 import lpu from "./company/lpu.png";

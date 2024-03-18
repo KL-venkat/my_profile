@@ -230,7 +230,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "angula-to-react-migration",
+          name: "angular-to-react-migration",
           color: "green-text-gradient",
         },
         {

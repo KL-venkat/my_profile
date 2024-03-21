@@ -1,8 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    // mobile,
+    // backend,
+    // creator,
+    // web,
     javascript,
     typescript,
     html,
@@ -41,7 +41,7 @@ import {
     },
   ];
   
-  const services = [
+  /*const services = [
     {
       title: " ",
       icon: web,
@@ -59,6 +59,7 @@ import {
       icon: creator,
     },
   ];
+  */
   
   const technologies = [
     {
@@ -298,4 +299,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export {technologies, experiences, testimonials, projects };

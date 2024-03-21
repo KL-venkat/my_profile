@@ -1,8 +1,8 @@
 import logo from "./logo.jpeg";
-import backend from "./backend.jpeg";
-import creator from "./creator.png";
-import mobile from "./mobile.jpg";
-import web from "./web.jpg";
+// import backend from "./backend.jpeg";
+//import creator from "./creator.png";
+// import mobile from "./mobile.jpg";
+// import web from "./web.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -32,10 +32,10 @@ import whitehatjr from './company/whitehatjr.png';
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  // backend,
+  // creator,
+  // mobile,
+  // web,
   github,
   menu,
   close,

@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Feedbacks} from './components';
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 const App = () => {
   const basename = '/my_portfolio/'
@@ -7,7 +7,7 @@ const App = () => {
 
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-top-right">
           <Navbar/>
           <Hero/>
         </div>

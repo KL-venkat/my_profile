@@ -51,7 +51,7 @@ const About = () => {
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 
         with a strong foundation in web-technologies allowing me to create seamless
-        and engaging user experiences.Let's work together to bring your ideas to life!
+        and engaging user experiences. Let's work together to bring your ideas to life!
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

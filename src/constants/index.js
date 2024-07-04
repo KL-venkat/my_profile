@@ -11,7 +11,7 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    // mongodb,
     git,
     figma,
     docker,
@@ -94,10 +94,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -123,14 +123,12 @@ import {
       icon: whitehatjr,
       iconBg: "#383E56",
       date: "Dec 2023 - present",
-      points:[]
-      // points: [
-      //   "Associated with an consultant and I'm glad for getting this opportunity to be a part of learning driven projects from such jaint clients Jack henry and Charles schwab Projects.",
-      //   "Responsible for building dynamic user interface using react for the requirements raised." ,
-      //   "Responsible for Unit Testing for the developed feature and Deployment. ",
-      //   "Understanding business requirements, analysing and designing solutions. ",
-      //   "In Charles Schewab Project mostly handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev."
-      // ],
+      points:[
+        "Tested functionalities in Proof-of-Concept (POC) projects to ensure a positive user experience.",
+        "Troubleshooted issues reported by cross-functional teams using the operational panel (Ops panel).",
+        "Guided parents in resolving difficulties joining session links."
+      ]
+      
     },
     {
       title: "Freelancer",
@@ -139,7 +137,7 @@ import {
       iconBg: "#383E56",
       date: "July 2023 - Jan 2024",
       points: [
-        "Associated with an consultant and I'm glad for getting this opportunity to be a part of learning driven projects from such jaint clients Jack henry and Charles schwab Projects.",
+        //"Associated with an consultant and I'm glad for getting this opportunity to be a part of learning driven projects from such jaint clients Jack henry and Charles schwab Projects.",
         "Responsible for building dynamic user interface using react for the requirements raised." ,
         "Responsible for Unit Testing for the developed feature and Deployment. ",
         "Understanding business requirements, analysing and designing solutions. ",
@@ -174,7 +172,7 @@ import {
         " Addressing Defects: Conducted rigorous testing of defect resolutions to ensure the effectiveness of implemented solutions. Collaborated with testing team to validate the defect fixes and ensure the fixes do not introduce new issues."
       ],
     },
-    {
+    /*{
       title: "Campus Ambassador",
       company_name: "LPU",
       icon: lpu,
@@ -186,35 +184,9 @@ import {
        "Community Outreach: Extend the organization's presence beyond the campus by engaging with community organizations, or industry associations. Collaborate on outreach initiatives, volunteer activities to positively impact the broader community",
         "Feedback Gathering: Act as a conduit for feedback between students and the organization. Solicit input on events, programs, or products, and communicate suggestions or concerns back to the organization for consideration and improvement."
       ],
-    },
+    },*/
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
@@ -295,8 +267,8 @@ import {
         },
       ],
       image: proctor_clone,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://kl-venkat.github.io/proctor_watchdog/",
     },
   ];
   
-  export {technologies, experiences, testimonials, projects };
+  export {technologies, experiences, projects };

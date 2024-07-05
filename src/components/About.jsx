@@ -46,7 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm passionate software developer with early professional experience in
+        I'm passionate Software Engineer with early professional experience in
         JavaScript, TypeScript and expertise in JS library React JS. I posess Proven ability to 
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 

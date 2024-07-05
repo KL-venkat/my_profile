@@ -118,20 +118,21 @@ import {
   
   const experiences = [
     {
-      title: "Support Analyst",
+      title: "Technical Support Specialist",
       company_name: "whitehat jr",
       icon: whitehatjr,
       iconBg: "#383E56",
       date: "Dec 2023 - present",
       points:[
-        "Tested functionalities in Proof-of-Concept (POC) projects to ensure a positive user experience.",
-        "Troubleshooted issues reported by cross-functional teams using the operational panel (Ops panel).",
-        "Guided parents in resolving difficulties joining session links."
+        "Optimized Salesforce CRM and streamlined Stripe payment processing, enhancing data accuracy and reducing billing errors by 40%, improving overall workflow efficiency by 25%.",
+        "Ensure high levels of user satisfaction by providing clear and effective solutions.",
+        "Managed the entire support ticket lifecycle followed by logging, prioritizing, resolving and documenting incidents.",
+        "Collaborated seamlessly with peers and external vendors to resolve technical challenges."
       ]
       
     },
     {
-      title: "Freelancer",
+      title: "Freelance Web Developer",
       company_name: "Freelance",
       icon: freelance,
       iconBg: "#383E56",

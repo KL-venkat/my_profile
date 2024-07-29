@@ -142,7 +142,7 @@ import {
         "Responsible for building dynamic user interface using react for the requirements raised." ,
         "Responsible for Unit Testing for the developed feature and Deployment. ",
         "Understanding business requirements, analysing and designing solutions. ",
-        "Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
+        //"Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
         "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA, acknowledging bugs and errors, and reporting issues to developers."
       ],
     },

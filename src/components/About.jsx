@@ -47,11 +47,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm passionate Software Engineer with early professional experience in
-        JavaScript, TypeScript and expertise in JS library React JS. I posess Proven ability to 
+        Frontend Developement and expertise in React JS. I possess Proven ability to 
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 
         with a strong foundation in web-technologies allowing me to create seamless
-        and engaging user experiences. Let's work together to bring your ideas to life!
+        and engaging user experiences.<br/> Let's work together to bring your ideas to life!
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

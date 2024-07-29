@@ -142,7 +142,8 @@ import {
         "Responsible for building dynamic user interface using react for the requirements raised." ,
         "Responsible for Unit Testing for the developed feature and Deployment. ",
         "Understanding business requirements, analysing and designing solutions. ",
-        "In Charles Schewab Project mostly handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev."
+        "Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
+        "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA, acknowledging bugs and errors, and reporting issues to developers."
       ],
     },
     {
@@ -217,10 +218,10 @@ import {
     {
       name: "Food Court",
       description: `
-        Designed and implemented an attractive UI for a Food Court App, showcasing a variety of food items,
+        Implemented an attractive UI for a Food Court App, showcasing a variety of food items,
         Engineered cart functionality, enabling users to easily add and manage selected items,
         Automated total amount calculation for transparent and surprise-free checkout experiences, and
-        Implemented a checkout modal and payment success feature, enhancing the user journey".
+        Implemented a checkout modal and payment success message feature, enhancing the user journey".
       `,
       tags: [
         {
@@ -235,18 +236,24 @@ import {
           name: "demo-application",
           color: "pink-text-gradient",
         },
+        {
+          name: "practice",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "grind",
+          color: "pink-text-gradient",
+        },
       ],
       image: food_court,
       source_code_link: "https://kl-venkat.github.io/Food_court/",
     },
     {
       name: "Proctor Watch Dog",
-      description:` This virtual Test application is reliable to conduct large scale examinations
-      by fulfilling Organization requirements with the unique features. Using this, An enormous number
-      of candidates are catered smoothly providing concurrent exams by the
-      organization.It by default changes to full screen mode like metti platform once the candidate starts
-      the Test. So thereby there would be no possibility of moving to other tabs during
-      examination.`,
+      description:` This virtual test application is an idea designed to reliably conduct large-scale
+       examinations, meeting organizational requirements with unique features. It smoothly handles a large
+        number of candidates concurrently and automatically switches to full-screen mode upon starting the test, 
+        preventing candidates from switching to other tabs.`,
 /*points:[
  ` It by default changes to full screen mode like metti platform once the candidate starts
   the Test. So thereby there would be no possibility of moving to other tabs during
@@ -266,6 +273,15 @@ import {
           name: "qasource",
           color: "pink-text-gradient",
         },
+        {
+          name: "harper-dev",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "individual-contribution",
+          color: "green-text-gradient",
+        },
+       
       ],
       image: proctor_clone,
       source_code_link: "https://kl-venkat.github.io/proctor_watchdog/",

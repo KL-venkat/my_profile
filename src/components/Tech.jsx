@@ -100,23 +100,23 @@ const Tech = () => {
       <h2 className={styles.sectionHeadText}>Familiar with..</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {cardData.map((card, index) => (
-          <div
-            key={index}
-            className={`flex items-center justify-center p-4 rounded-lg ${card.color} text-white`}
-          >
-           <img src={card.image} alt={card.alt} className="w-16 h-16 object-contain" /> 
-          </div>
-
           // <div
-          // key={index}
-          // className={`relative rounded-lg overflow-hidden ${card.color} text-white w-25 h-25`}
+          //   key={index}
+          //   className={`flex items-center justify-center p-4 rounded-lg ${card.color} text-white`}
           // >
-          //  <img
-          //     src={card.image}
-          //     alt={card.alt}
-          //     className="w-full h-full object-cover" // Make the image cover the entire card
-          //   />
+          //  <img src={card.image} alt={card.alt} className="w-16 h-16 object-contain" /> 
           // </div>
+
+          <div
+          key={index}
+          className={`relative rounded-lg overflow-hidden ${card.color} text-white w-25 h-25  p-6`}
+          >
+           <img
+              src={card.image}
+              alt={card.alt}
+              className="w-full h-full object-cover" // Make the image cover the entire card
+            />
+          </div>
 
         ))}
       </div>

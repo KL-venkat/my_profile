@@ -149,7 +149,7 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Software Engineer II",
       company_name: "QASOURCE",
       icon: qasource,
       iconBg: "#E6DEDD",

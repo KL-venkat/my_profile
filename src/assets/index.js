@@ -29,6 +29,7 @@ import qasource from "./company/qasource.png";
 import lpu from "./company/lpu.png";
 import freelance from "./company/freelance.png";
 import whitehatjr from './company/whitehatjr.png';
+import Michael_page from './company/Michael_Page.jpg';
 
 export {
   logo,
@@ -57,6 +58,7 @@ export {
   lpu,
   bebo_technologies,
   whitehatjr,
+  Michael_page,
   everbright_sighten,
   food_court,
   proctor_clone

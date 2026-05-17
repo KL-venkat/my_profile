@@ -11,19 +11,19 @@ import {
     redux,
     tailwind,
     nodejs,
-    // mongodb,
     git,
     figma,
     docker,
+    Michael_page,
+    whitehatjr,
     bebo_technologies,
     qasource,
     freelance,
-    whitehatjr,
     everbright_sighten,
     food_court,
     proctor_clone,
     threejs,
-    lpu
+    lpu,
   } from "../assets";
   
   export const navLinks = [
@@ -118,42 +118,64 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "WhiteHat Jr",
-      icon: whitehatjr,
+      // title: "CRM Operations Associate | Technical support | Operations Support & CRM",
+      title: "Product Support Associate",
+      company_name: "Michael Page(Client: Epic!)",
+      icon: Michael_page,
       iconBg: "#383E56",
-      date: "Dec 2023 - present",
+      date: "Dec 2024 - present",
       points:[
-        "Developed functionalities for tracking upcoming and recent meetings, including adding discussions and notes features, within the meetings module.",
         "Assigned and prioritized tasks, ensuring comprehensive review of any upstream dependencies.",
         "Optimized Salesforce CRM and streamlined Stripe payment processing, enhancing data accuracy and reducing billing errors by 40%, improving overall workflow efficiency by 25%.",
-//"Ensure high levels of user satisfaction by providing clear and effective solutions.",
+        "Ensure high levels of user satisfaction by providing clear and effective solutions.",
         "Managed the entire support ticket lifecycle followed by logging, prioritizing, resolving and documenting incidents.",
-        "Collaborated seamlessly with peers and external vendors to resolve technical challenges."
+        "Managed Salesforce CRM data operations including lead management, opportunity updates, account maintenance, and pipeline validation to ensure data accuracy and reporting reliability.",
+        "Coordinated end-to-end support ticket lifecycle in Zendesk including triage, prioritization, escalation, routing, resolution tracking, and documentation.",
+        "Collaborated with cross-functional teams including engineering, finance, customer support, and vendors to resolve technical and operational issues efficiently.",
+        "Maintained CRM data hygiene by auditing records, validating reports, and ensuring accurate sales and customer information across systems.",
+        "Supported revenue operations by handling Stripe payment disputes and verification workflows following standard operating procedures and compliance guidelines.",
+        "Assigned and prioritized operational tasks while proactively identifying upstream dependencies and potential workflow bottlenecks.",
+        "Delivered customer-focused solutions by analyzing issues, documenting resolutions, and ensuring clear communication throughout the support process."
+     
       ]
       
     },
     {
-      title: "Freelance Web Developer",
-      company_name: "Freelance",
-      icon: freelance,
+      title: "Frontend Developer",
+      company_name: "WhiteHat Jr",
+      icon: whitehatjr,
       iconBg: "#383E56",
-      date: "July 2023 - Jan 2024",
-      points: [
-        //"Associated with an consultant and I'm glad for getting this opportunity to be a part of learning driven projects from such jaint clients Jack henry and Charles schwab Projects.",
-        "Responsible for building dynamic user interface using react for the requirements raised." ,
-       // "Responsible for Unit Testing for the developed feature and Deployment. ",
+      date: "Dec 2023 - Nov 2024",
+     points: [
+        "Collaborated with cross-functional teams to design and implement new features, resulting in a 20% increase in user engagement.",
+        "Responsible for Unit Testing for the developed feature and Deployment. ",
         "Understanding business requirements, analysing and designing solutions. ",
-        //"Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
-        "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA, acknowledging bugs and errors, and reporting issues to developers."
+        "Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
+        "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA stage, acknowledging bugs and errors, and reporting issues to developers."
       ],
+      
     },
+    // {
+    //   title: "Freelance Web Developer",
+    //   company_name: "Freelance",
+    //   icon: freelance,
+    //   iconBg: "#383E56",
+    //   date: "July 2023 - Jan 2024",
+    //   points: [
+    //     //"Associated with an consultant and I'm glad for getting this opportunity to be a part of learning driven projects from such jaint clients Jack henry and Charles schwab Projects.",
+    //     "Responsible for building dynamic user interface using react for the requirements raised." ,
+    //    // "Responsible for Unit Testing for the developed feature and Deployment. ",
+    //     "Understanding business requirements, analysing and designing solutions. ",
+    //     //"Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
+    //     "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA, acknowledging bugs and errors, and reporting issues to developers."
+    //   ],
+    // },
     {
       title: "Software Engineer II",
       company_name: "QASOURCE",
       icon: qasource,
       iconBg: "#E6DEDD",
-      date: "March 2022 - Sept 2023",
+      date: "Feb 2022 - Sept 2023",
       points: [
         "Responsible for front-end application development in React js. ",
         "Planning Heirarchy of application according to the Problem statement raised/Ticket's assigned and building components.",
@@ -163,19 +185,21 @@ import {
         "To Engage in daily standup meetings for team collaboration, ongoing task discussions, assignment prioritization, and strategic project workflow planning."
       ],
     },
-    {
-      title: "Dev Intern",
-      company_name: "bebo Technologies",
-      icon: bebo_technologies,
-      iconBg: "#383E56",
-      date: "Feb 2022 - March 2022",
-      points: [
-        " Requirement Assessment: Performed Requirements analysis and its implementation by building POC's, creating supportive proofs to meet requirements and alternatively suggested possible workaround to get it completed.",
-        " Design and Development: Based on supported tec hnical proofs, documenting the workaround for functionality in tech specifying the best approach followed(like sequence diagrams, workflow to implementation of notes, Hierarchy plans) and developed the tasks workflows as required.",
-       "  Build and deployment: Translated design mockups and wireframes into functional and responsive user interfaces. Developed modular, reusable, and scalable frontend components in react and Utilized version control systems (GIT) for code versioning, branching, and for collaboration with other developers.",
-        " Addressing Defects: Conducted rigorous testing of defect resolutions to ensure the effectiveness of implemented solutions. Collaborated with testing team to validate the defect fixes and ensure the fixes do not introduce new issues."
-      ],
-    },
+    // {
+    //   title: "Dev Intern",
+    //   company_name: "bebo Technologies",
+    //   icon: bebo_technologies,
+    //   iconBg: "#383E56",
+    //   date: "Feb 2022 - March 2022",
+    //   points: [
+    //     " Requirement Assessment: Performed Requirements analysis and its implementation by building POC's, creating supportive proofs to meet requirements and alternatively suggested possible workaround to get it completed.",
+    //     " Design and Development: Based on supported tec hnical proofs, documenting the workaround for functionality in tech specifying the best approach followed(like sequence diagrams, workflow to implementation of notes, Hierarchy plans) and developed the tasks workflows as required.",
+    //    "  Build and deployment: Translated design mockups and wireframes into functional and responsive user interfaces. Developed modular, reusable, and scalable frontend components in react and Utilized version control systems (GIT) for code versioning, branching, and for collaboration with other developers.",
+    //     " Addressing Defects: Conducted rigorous testing of defect resolutions to ensure the effectiveness of implemented solutions. Collaborated with testing team to validate the defect fixes and ensure the fixes do not introduce new issues."
+    //   ],
+    // },
+
+
     /*{
       title: "Campus Ambassador",
       company_name: "LPU",
@@ -290,4 +314,4 @@ import {
     },
   ];
   
-  export {technologies, experiences, projects };
+  export {technologies, experiences, projects};

@@ -23,6 +23,7 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  
 
   return (
     <nav
@@ -44,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Venkat &nbsp;
-            <span className='sm:block hidden'> | Frontend Dev</span>
+            <span className='sm:block hidden'> | Technical Consultant</span>
           </p>
         </Link>
 

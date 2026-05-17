@@ -46,12 +46,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm passionate Software Engineer with early professional experience in
+        {/* I'm passionate Tech professional with experience in
         Frontend Developement and expertise in React JS. I possess Proven ability to 
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 
         with a strong foundation in web-technologies allowing me to create seamless
-        and engaging user experiences.<br/> Let's work together to bring your ideas to life!
+        and engaging user experiences.<br/> Let's work together to bring your ideas to life! */}
+        Passionate Techie with experience in frontend engineering, CRM workflows, and customer operations, currently transitioning into Salesforce Platform Development. 
+        Skilled in building responsive web applications using React.js and collaborating with cross-functional teams to deliver reliable, user-focused solutions.
+        <br/>
+          <br/>
+        My professional experience working across development and customer support operations has provided me with a strong understanding of business workflows, 
+        customer lifecycle management, and enterprise tools including Zendesk and Salesforce. I am focused on expanding my expertise in Salesforce technologies, workflow automation, 
+        and platform-based solutions to help organizations improve operational efficiency and customer experience.<br/> Let's work together to bring your ideas to life!
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

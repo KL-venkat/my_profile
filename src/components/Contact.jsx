@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -15,7 +15,13 @@ const Contact = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
+  const [statusMessage, setStatusMessage] = useState("");
+
+  useEffect(() => {
+    emailjs.init("CAyDEcTTcDTHcucFe");
+  }, []);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -27,8 +33,26 @@ const Contact = () => {
     });
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+    if (!form.name.trim()) newErrors.name = "Name is required.";
+    if (!form.email.trim()) {
+      newErrors.email = "Email is required.";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+      newErrors.email = "Enter a valid email address.";
+    }
+    if (!form.message.trim()) newErrors.message = "Message cannot be empty.";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setStatusMessage("");
+
+    if (!validateForm()) return;
+
     setLoading(true);
 
     emailjs
@@ -37,29 +61,28 @@ const Contact = () => {
         "template_vv6mvv7",
         {
           from_name: form.name,
-          to_name: "Venkat Koppula",
           from_email: form.email,
-          to_email: "venkat.klv01@gmail.com",
           message: form.message,
-        },
-        "CAyDEcTTcDTHcucFe"
+        }
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you!. I will get back to you as soon as possible.");
-
+          setStatusMessage("Thank you! I will get back to you as soon as possible.");
           setForm({
             name: "",
             email: "",
             message: "",
           });
+          setErrors({});
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          console.error("EmailJS error:", error);
+          const errorText =
+            error?.text || error?.statusText || error?.message ||
+            "Something went wrong. Please try again later.";
+          setStatusMessage(errorText);
         }
       );
   };
@@ -90,6 +113,9 @@ const Contact = () => {
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.name && (
+              <span className='text-red-400 text-sm mt-2'>{errors.name}</span>
+            )}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
@@ -101,6 +127,9 @@ const Contact = () => {
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.email && (
+              <span className='text-red-400 text-sm mt-2'>{errors.email}</span>
+            )}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
@@ -112,11 +141,19 @@ const Contact = () => {
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.message && (
+              <span className='text-red-400 text-sm mt-2'>{errors.message}</span>
+            )}
           </label>
+
+          {statusMessage && (
+            <p className='text-sm text-white-100 mb-2'>{statusMessage}</p>
+          )}
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            disabled={loading}
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary disabled:opacity-50 disabled:cursor-not-allowed'
           >
             {loading ? "Sending..." : "Send"}
           </button>

@@ -52,13 +52,17 @@ const About = () => {
         My journey in the tech has equipped me 
         with a strong foundation in web-technologies allowing me to create seamless
         and engaging user experiences.<br/> Let's work together to bring your ideas to life! */}
-        Passionate Techie with experience in frontend engineering, CRM workflows, and customer operations, currently transitioning into Salesforce Platform Development. 
-        Skilled in building responsive web applications using React.js and collaborating with cross-functional teams to deliver reliable, user-focused solutions.
+        {/* Passionate Techie with experience in frontend engineering, CRM workflows, and customer operations, currently transitioning into Salesforce Platform Development. 
+        Skilled in building responsive web applications using React.js and collaborating with cross-functional teams to deliver reliable, user-focused solutions. */}
+        Analytical professional with experience spanning customer operations, CRM systems, and technology-driven business processes, currently focused on building a career in data analytics. 
+        Skilled at transforming operational and customer data into actionable insights that support business decision-making and improve customer experiences.
         <br/>
           <br/>
-        My professional experience working across development and customer support operations has provided me with a strong understanding of business workflows, 
+        {/* My professional experience working across development and customer support operations has provided me with a strong understanding of business workflows, 
         customer lifecycle management, and enterprise tools including Zendesk and Salesforce. I am focused on expanding my expertise in Salesforce technologies, workflow automation, 
-        and platform-based solutions to help organizations improve operational efficiency and customer experience.<br/> Let's work together to bring your ideas to life!
+        and platform-based solutions to help organizations improve operational efficiency and customer experience.<br/> Let's work together to bring your ideas to life! */}
+        Combining a technical background with strong analytical thinking, I am developing expertise in SQL, Excel, Power BI/Tableau, and data visualization to transform complex datasets into clear, actionable insights. 
+        Passionate about leveraging data to solve business challenges, improve customer experiences, and support strategic objectives.
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

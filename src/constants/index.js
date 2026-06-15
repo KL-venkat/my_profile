@@ -126,11 +126,11 @@ import {
       date: "Dec 2024 - present",
       points:[
         "Assigned and prioritized tasks, ensuring comprehensive review of any upstream dependencies.",
+        "Coordinated end-to-end support ticket lifecycle in Zendesk including triage, prioritization, escalation, routing, resolution tracking, and documentation.",
         "Optimized Salesforce CRM and streamlined Stripe payment processing, enhancing data accuracy and reducing billing errors by 40%, improving overall workflow efficiency by 25%.",
         "Ensure high levels of user satisfaction by providing clear and effective solutions.",
         "Managed the entire support ticket lifecycle followed by logging, prioritizing, resolving and documenting incidents.",
         "Managed Salesforce CRM data operations including lead management, opportunity updates, account maintenance, and pipeline validation to ensure data accuracy and reporting reliability.",
-        "Coordinated end-to-end support ticket lifecycle in Zendesk including triage, prioritization, escalation, routing, resolution tracking, and documentation.",
         "Collaborated with cross-functional teams including engineering, finance, customer support, and vendors to resolve technical and operational issues efficiently.",
         "Maintained CRM data hygiene by auditing records, validating reports, and ensuring accurate sales and customer information across systems.",
         "Supported revenue operations by handling Stripe payment disputes and verification workflows following standard operating procedures and compliance guidelines.",
@@ -138,10 +138,22 @@ import {
         "Delivered customer-focused solutions by analyzing issues, documenting resolutions, and ensuring clear communication throughout the support process."
      
       ]
-      
+      // points: [
+      //   "Managed Salesforce CRM data operations, ensuring data accuracy, completeness, and consistency across leads, accounts, contacts, and opportunities to support business reporting and decision-making.",
+      //   "Performed regular data validation, record audits, and pipeline reviews, improving CRM data quality and reporting reliability.",
+      //   "Monitored key performance indicators (KPIs) and provided actionable insights to stakeholders for process improvement and operational effectiveness.",
+      //   "Analyzed operational workflows and identified process inefficiencies, contributing to a 25% improvement in overall workflow efficiency.",
+      //   "Optimized Salesforce CRM and Stripe payment processes, reducing billing discrepancies by 40% through data verification, reconciliation, and process standardization.",
+      //   "Collaborated with engineering, finance, customer success, and external vendors to investigate data inconsistencies, resolve operational issues, and improve business processes.",
+      //   "Conducted trend analysis on customer issues and support data to identify recurring problems and recommend preventive solutions.",
+      //   "Built an interactive sales performance dashboard using Power BI.",
+      //   "Analyzed 50,000+ sales records using SQL.",
+      //   "Created KPIs for revenue, profit margin, customer retention, and sales growth.",
+      //   "Used Salesforce-like CRM datasets and Analyzed lead conversion rates, opportunity pipeline stages, and sales performance."
+      // ]
     },
     {
-      title: "Frontend Developer",
+      title: "Technical Consultant",
       company_name: "WhiteHat Jr",
       icon: whitehatjr,
       iconBg: "#383E56",

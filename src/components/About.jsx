@@ -46,23 +46,25 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {/* I'm passionate Tech professional with experience in
-        Frontend Developement and expertise in React JS. I possess Proven ability to 
+        I'm passionate Tech professional with experience in
+        Frontend Developement,CRM workflows, and customer operations. I possess Proven ability to 
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 
-        with a strong foundation in web-technologies allowing me to create seamless
-        and engaging user experiences.<br/> Let's work together to bring your ideas to life! */}
-        {/* Passionate Techie with experience in frontend engineering, CRM workflows, and customer operations, currently transitioning into Salesforce Platform Development. 
+        with a strong foundation in web-technologies, testing processes, allowing me to create seamless
+        and engaging user experiences.<br/> Let's work together to bring your ideas to life!
+        {/* Passionate Techie with experience in frontend development, CRM workflows, and customer operations, currently transitioning into SAP. 
         Skilled in building responsive web applications using React.js and collaborating with cross-functional teams to deliver reliable, user-focused solutions. */}
-        Analytical professional with experience spanning customer operations, CRM systems, and technology-driven business processes, currently focused on building a career in data analytics. 
-        Skilled at transforming operational and customer data into actionable insights that support business decision-making and improve customer experiences.
+        {/* Analytical professional with experience spanning customer operations, CRM systems, and technology-driven business processes, currently focused on building a career in data analytics. 
+        Skilled at transforming operational and customer data into actionable insights that support business decision-making and improve customer experiences. */}
         <br/>
           <br/>
         {/* My professional experience working across development and customer support operations has provided me with a strong understanding of business workflows, 
-        customer lifecycle management, and enterprise tools including Zendesk and Salesforce. I am focused on expanding my expertise in Salesforce technologies, workflow automation, 
+        customer lifecycle management, and enterprise tools including Zendesk and Salesforce. I am focused on expanding my expertise in learning technologies, Testing methodologies, workflow automation, 
         and platform-based solutions to help organizations improve operational efficiency and customer experience.<br/> Let's work together to bring your ideas to life! */}
-        Combining a technical background with strong analytical thinking, I am developing expertise in SQL, Excel, Power BI/Tableau, and data visualization to transform complex datasets into clear, actionable insights. 
-        Passionate about leveraging data to solve business challenges, improve customer experiences, and support strategic objectives.
+        {/* Combining a technical background with strong understanding of business processes, I am developing expertise in SQL, Excel, Power BI/Tableau, and data visualization to transform complex datasets into clear, actionable insights. 
+        Passionate about leveraging data to solve business challenges, improve customer experiences, and support strategic objectives. */}
+        Leveraging a strong technical background and business process understanding, I am developing expertise in Software Testing, including test case creation, manual testing, bug reporting, defect lifecycle management, and SDLC and STLC concepts. 
+        Passionate about ensuring software reliability, improving product quality, and delivering exceptional customer experiences through effective quality assurance.
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

@@ -47,7 +47,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm passionate Tech professional with experience in
-        Frontend Developement,CRM workflows, and customer operations. I possess Proven ability to 
+        Frontend Developement, QA Testing and Automation, CRM workflows, and customer operations. I possess Proven ability to 
         collaborate effectively with cross-functional teams to deliver high-quality solutions. 
         My journey in the tech has equipped me 
         with a strong foundation in web-technologies, testing processes, allowing me to create seamless

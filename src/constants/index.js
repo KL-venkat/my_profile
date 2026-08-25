@@ -119,25 +119,37 @@ import {
   const experiences = [
     {
       // title: "CRM Operations Associate | Technical support | Operations Support & CRM",
-      title: "Product Support Associate",
+      title: "Product Associate",
       company_name: "Michael Page(Client: Epic!)",
       icon: Michael_page,
       iconBg: "#383E56",
       date: "Dec 2024 - present",
       points:[
-        "Assigned and prioritized tasks, ensuring comprehensive review of any upstream dependencies.",
-        "Coordinated end-to-end support ticket lifecycle in Zendesk including triage, prioritization, escalation, routing, resolution tracking, and documentation.",
-        "Optimized Salesforce CRM and streamlined Stripe payment processing, enhancing data accuracy and reducing billing errors by 40%, improving overall workflow efficiency by 25%.",
-        "Ensure high levels of user satisfaction by providing clear and effective solutions.",
-        "Managed the entire support ticket lifecycle followed by logging, prioritizing, resolving and documenting incidents.",
-        "Managed Salesforce CRM data operations including lead management, opportunity updates, account maintenance, and pipeline validation to ensure data accuracy and reporting reliability.",
-        "Collaborated with cross-functional teams including engineering, finance, customer support, and vendors to resolve technical and operational issues efficiently.",
-        "Maintained CRM data hygiene by auditing records, validating reports, and ensuring accurate sales and customer information across systems.",
-        "Supported revenue operations by handling Stripe payment disputes and verification workflows following standard operating procedures and compliance guidelines.",
-        "Assigned and prioritized operational tasks while proactively identifying upstream dependencies and potential workflow bottlenecks.",
-        "Delivered customer-focused solutions by analyzing issues, documenting resolutions, and ensuring clear communication throughout the support process."
-     
+        "Responsible for writing manual test cases to ensure comprehensive test coverage across features and workflows.",
+        "Delivered customer-focused support by investigating issues, providing effective solutions, documenting resolutions, andmaintaining clear communication throughout the support process.",
+        "Performed Functional, Regression, Smoke, Sanity, and Ad-hoc Testing, along with defect tracking.",
+        "Logged and tracked defects using JIRA and Rally, applying a strong understanding of SDLC, STLC, and the bug life cycle.",
+        "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
+        "Created and executed manual test cases for Web, Mobile, and Desktop-based applications.",
+        "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
+        "Participated in production calls, incident handling, and product requirement discussions.",
+        "Participated in designing and maintaining test cases in Zephyr, validating application functionality, and documenting testevidence through screenshots and functional walkthroughs.",
       ]
+      // points: [ 
+
+        // "Assigned and prioritized tasks, ensuring comprehensive review of any upstream dependencies.",
+        // "Coordinated end-to-end support ticket lifecycle in Zendesk including triage, prioritization, escalation, routing, resolution tracking, and documentation.",
+        // "Optimized Salesforce CRM and streamlined Stripe payment processing, enhancing data accuracy and reducing billing errors by 40%, improving overall workflow efficiency by 25%.",
+        // "Ensure high levels of user satisfaction by providing clear and effective solutions.",
+        // "Managed the entire support ticket lifecycle followed by logging, prioritizing, resolving and documenting incidents.",
+        // "Managed Salesforce CRM data operations including lead management, opportunity updates, account maintenance, and pipeline validation to ensure data accuracy and reporting reliability.",
+        // "Collaborated with cross-functional teams including engineering, finance, customer support, and vendors to resolve technical and operational issues efficiently.",
+        // "Maintained CRM data hygiene by auditing records, validating reports, and ensuring accurate sales and customer information across systems.",
+        // "Supported revenue operations by handling Stripe payment disputes and verification workflows following standard operating procedures and compliance guidelines.",
+        // "Assigned and prioritized operational tasks while proactively identifying upstream dependencies and potential workflow bottlenecks.",
+        // "Delivered customer-focused solutions by analyzing issues, documenting resolutions, and ensuring clear communication throughout the support process."
+     
+      //]
       // points: [
       //   "Managed Salesforce CRM data operations, ensuring data accuracy, completeness, and consistency across leads, accounts, contacts, and opportunities to support business reporting and decision-making.",
       //   "Performed regular data validation, record audits, and pipeline reviews, improving CRM data quality and reporting reliability.",
@@ -153,7 +165,7 @@ import {
       // ]
     },
     {
-      title: "Technical Consultant",
+      title: "Lead Generation Specialist",
       company_name: "WhiteHat Jr",
       icon: whitehatjr,
       iconBg: "#383E56",
@@ -162,6 +174,7 @@ import {
         "Collaborated with cross-functional teams to design and implement new features, resulting in a 20% increase in user engagement.",
         "Responsible for Unit Testing for the developed feature and Deployment. ",
         "Understanding business requirements, analysing and designing solutions. ",
+        "Wrote and executed functional and regression test cases, extending coverage for Web, Mobile, and Desktop applications on theBMC product line.",
         "Handled scrum part followed by PR reviewes, Task management on scrum board, Team collaboration, Bug fixing, Testing and acknowledging the bugs/errors to reporting dev.",
         "Got an demonstrated exposure in agile methodology, particularly in handling Scrum processes. My responsibilities include managing Scrum activities, conducting PR reviews, managing tasks on the Scrum board, collaborating with team members, fixing bugs, Regression feature tasks once deployed in QA stage, acknowledging bugs and errors, and reporting issues to developers."
       ],
@@ -184,7 +197,7 @@ import {
     // },
     {
       title: "Software Engineer II",
-      company_name: "QASOURCE",
+      company_name: "Bebo Technologies",
       icon: qasource,
       iconBg: "#E6DEDD",
       date: "Feb 2022 - Sept 2023",
@@ -194,7 +207,8 @@ import {
         "Demonstrating the improvement of the user interface in response to the raised problem statement through a Ticket and ensuring timely deliveries.", 
         "Planning and breaking down tasks into deliverable and prepare estimates accordingly.", 
         "Reporting the work status to team and make necessary discussions with client whenever required.", 
-        "To Engage in daily standup meetings for team collaboration, ongoing task discussions, assignment prioritization, and strategic project workflow planning."
+        "To Engage in daily standup meetings for team collaboration, ongoing task discussions, assignment prioritization, and strategic project workflow planning.",
+        "Integrated LangChain into an open project using LLMs to auto-generate test scripts, reducing testing time by 85%, and optimized efficiency by 60% through reuse of test scripts from specified directories/modules."
       ],
     },
     // {

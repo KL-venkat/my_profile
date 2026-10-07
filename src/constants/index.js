@@ -119,22 +119,35 @@ import {
   const experiences = [
     {
       // title: "CRM Operations Associate | Technical support | Operations Support & CRM",
-      title: "Product Associate",
-      company_name: "Michael Page(Client: Epic!)",
+      title: "Customer Support Representative",
+      company_name: "Michael Page(Client: Epic! Creations, Inc.)",
       icon: Michael_page,
       iconBg: "#383E56",
-      date: "Dec 2024 - present",
-      points:[
-        "Responsible for writing manual test cases to ensure comprehensive test coverage across features and workflows.",
-        "Delivered customer-focused support by investigating issues, providing effective solutions, documenting resolutions, andmaintaining clear communication throughout the support process.",
-        "Performed Functional, Regression, Smoke, Sanity, and Ad-hoc Testing, along with defect tracking.",
-        "Logged and tracked defects using JIRA and Rally, applying a strong understanding of SDLC, STLC, and the bug life cycle.",
-        "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
-        "Created and executed manual test cases for Web, Mobile, and Desktop-based applications.",
-        "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
+      date: "Dec 2024 - May 2026",
+      //for fullstack developer role
+      points: [
+        " Developed and scaled end-to-end features for high-traffic student and educator ecosystems, including multi-tier content discovery pipelines, digital book readers, and assignments management interfaces.",
+        "Well-versed with Agile Methodology.",
         "Participated in production calls, incident handling, and product requirement discussions.",
-        "Participated in designing and maintaining test cases in Zephyr, validating application functionality, and documenting testevidence through screenshots and functional walkthroughs.",
+        "Developed web application features for the Epic School Plus digital literacy platform, creating frontend interfaces with React.js and writing backend logic using Django and Python.",
+        "Built and updated core functional components for student and educator workflows, including content discovery pipelines, digital reading interfaces, and assignment tracking modules.",
+        "Structured Django Models, Views, and optimized Django ORM queries to aggregate student reading metrics, ensuring real-time progress tracking reports load efficiently for school administrators.",
+        "Provided cross-platform engineering support for BMC software integrations, diagnosing and fixing single sign-on (SSO) issues and ensuring smooth data synchronization across enterprise suites.",
+        "Created secure RESTful APIs using Django REST Framework to manage data interchange safely, ensuring strict adherence to user privacy and educational data compliance standards.",
+        "Performed comprehensive end-to-end testing, ensuring the entire system functioned seamlessly from start to finish, meeting the required specifications."
       ]
+      // //for Test Engineer role
+      // points:[
+      //   "Responsible for writing manual test cases to ensure comprehensive test coverage across features and workflows.",
+      //   "Delivered customer-focused support by investigating issues, providing effective solutions, documenting resolutions, andmaintaining clear communication throughout the support process.",
+      //   "Performed Functional, Regression, Smoke, Sanity, and Ad-hoc Testing, along with defect tracking.",
+      //   "Logged and tracked defects using JIRA and Rally, applying a strong understanding of SDLC, STLC, and the bug life cycle.",
+      //   "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
+      //   "Created and executed manual test cases for Web, Mobile, and Desktop-based applications.",
+      //   "Coordinated the end-to-end support ticket lifecycle in Zendesk, including triage, prioritization, escalation, resolution tracking,and documentation to ensure timely issue resolution.",
+      //   "Participated in production calls, incident handling, and product requirement discussions.",
+      //   "Participated in designing and maintaining test cases in Zephyr, validating application functionality, and documenting testevidence through screenshots and functional walkthroughs.",
+      // ]
       // points: [ 
 
         // "Assigned and prioritized tasks, ensuring comprehensive review of any upstream dependencies.",
@@ -166,7 +179,7 @@ import {
     },
     {
       title: "Lead Generation Specialist",
-      company_name: "WhiteHat Jr",
+      company_name: "WhiteHat Jr(Client: Epic! Creations, Inc.)",
       icon: whitehatjr,
       iconBg: "#383E56",
       date: "Dec 2023 - Nov 2024",
@@ -200,7 +213,7 @@ import {
       company_name: "Bebo Technologies",
       icon: qasource,
       iconBg: "#E6DEDD",
-      date: "Feb 2022 - Sept 2023",
+      date: "Feb 2022 - July 2023",
       points: [
         "Responsible for front-end application development in React js. ",
         "Planning Heirarchy of application according to the Problem statement raised/Ticket's assigned and building components.",

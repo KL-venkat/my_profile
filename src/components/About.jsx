@@ -63,8 +63,12 @@ const About = () => {
         and platform-based solutions to help organizations improve operational efficiency and customer experience.<br/> Let's work together to bring your ideas to life! */}
         {/* Combining a technical background with strong understanding of business processes, I am developing expertise in SQL, Excel, Power BI/Tableau, and data visualization to transform complex datasets into clear, actionable insights. 
         Passionate about leveraging data to solve business challenges, improve customer experiences, and support strategic objectives. */}
-        Leveraging a strong technical background and business process understanding, I am developing expertise in Software Testing, including test case creation, manual testing, bug reporting, defect lifecycle management, and SDLC and STLC concepts. 
+        {/* Leveraging a strong technical background and business process understanding, I am developing expertise in Software Testing, including test case creation, manual testing, bug reporting, defect lifecycle management, and SDLC and STLC concepts. 
         Passionate about ensuring software reliability, improving product quality, and delivering exceptional customer experiences through effective quality assurance.
+        */}
+
+        I combine robust full-stack development with a rigorous testing mindset to build web applications that are resilient by design. My deep understanding of SDLC and software testing processes allows me to catch defects early, streamline the development lifecycle, 
+        and deploy high-performing solutions. Driven by a passion for software reliability, I bridge the gap between engineering execution and flawless quality assurance to deliver superior user experiences.
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>
